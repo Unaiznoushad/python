@@ -1,0 +1,8 @@
+x=("unaiz",12,34,"ali")
+print(x)
+print(type(x))
+y=list(x)
+y.insert(2,45)
+print(y)
+x=tuple(y)
+print(x)
